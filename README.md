@@ -156,6 +156,26 @@ ALLOWED_HOSTS=your_domain
 
 ---
 
+
+## 📊 Monitoring & Alerting
+
+Uptime monitoring is implemented using UptimeRobot to ensure high availability of both production and staging environments.
+
+### Features
+- HTTP monitoring for production and staging domains
+- 5-minute interval health checks
+- Real-time uptime tracking
+- Instant alerting on downtime
+
+### Monitored Services
+- Production: https://dopaminecouch.com
+- Staging: https://stage.dopaminecouch.com
+
+### 📸 Monitoring Dashboard
+![Uptime](screenshots/uptime-monitoring.png)
+
+---
+
 ## 💡 My Role
 
 * Designed and managed production & staging environments
@@ -164,7 +184,9 @@ ALLOWED_HOSTS=your_domain
 * Managed SSL setup using Let's Encrypt
 * Handled deployment and container orchestration
 * Implemented automation scripts for deployment and monitoring
-
+- Implemented uptime monitoring and alerting using UptimeRobot
+- Ensured high availability with continuous health checks
+- Configured monitoring for both production and staging environments
 ---
 
 ## ⚠️ Notes
